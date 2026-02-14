@@ -8,13 +8,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "AlertsAndPickers",
-            targets: ["AlertsAndPickers"]
+            name: "RLBAlertsPickers",
+            targets: ["RLBAlertsPickers"]
         )
     ],
     targets: [
         .target(
-            name: "AlertsAndPickers",
+            name: "RLBAlertsPickers",
             path: "Source",
             resources: [
                 .process("Resources")
